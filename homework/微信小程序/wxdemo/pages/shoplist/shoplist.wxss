@@ -1,0 +1,48 @@
+.shop{
+	padding: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+
+.shop-image{
+  width: 90px;
+  height: 90px;
+  margin-right: 15rpx;
+
+}
+.shop-info{
+  display: flex;
+  flex-direction: column;
+
+}
+.shop-item{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.shop-info text{
+   font-size: 14px;
+  color: #ccc;
+
+}
+.shop-info .shop-title{
+  font-size: 16px;
+  color: #000;
+
+}
+.shop-star{
+  position: relative;
+
+}
+.star-before{
+  color: #ccc;
+}
+.star-after{
+  color: #f19e38;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  overflow: hidden;
+}

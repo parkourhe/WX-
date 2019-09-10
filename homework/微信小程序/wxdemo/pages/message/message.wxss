@@ -1,0 +1,47 @@
+page{
+  background-color: #eee;
+  padding: 0rpx 20rpx;
+  box-sizing: border-box;
+}
+
+.crad{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-sizing: border-box;
+  margin: 50rpx 0rpx;
+  padding: 25rpx;
+  border: 1px solid #ccc;
+  border-radius: 15rpx;
+}
+
+.crad-title{
+    
+  margin-bottom: 15rpx;
+
+}
+.crad-date{
+  font-size:25rpx;
+  color: #ccc;
+  margin-bottom: 15rpx;
+  padding-bottom: 10rpx;
+  border-bottom: 1px solid #eee;
+}
+
+.crad-image{
+  margin-top:10rpx;
+  width: 100%;
+  height: 300rpx;
+ 
+}
+
+.crad-dec{
+    padding: 15rpx 0rpx;
+    border-bottom: 1px solid  #ccc;
+}
+
+.crad-read{
+   padding: 15rpx;
+   font-size: 12px;
+   color: #ccc;
+}

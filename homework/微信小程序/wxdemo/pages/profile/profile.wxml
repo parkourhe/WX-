@@ -1,0 +1,29 @@
+<!--pages/profile/profile.wxml-->
+<view class="avatar center">
+    <image class="profile-avatar" src="/assets/images/avatar.png"></image>
+</view>
+
+<view class="jiange"></view>
+<view class="cell">
+    <navigator class="cell-item allow">
+          <text>个人资料</text>
+    </navigator>
+    <navigator class="cell-item allow">
+          <text>我的优惠券</text>
+    </navigator>
+    <view class="jiange"></view>
+    <navigator class="cell-item allow">
+          <text>常见问题</text>
+    </navigator>
+     <navigator class="cell-item allow">
+          <text>使用条款</text>
+    </navigator>
+     <navigator class="cell-item allow">
+          <text>常见问题</text>
+    </navigator>
+     <navigator class="cell-item allow">
+          <text>使用条款</text>
+    </navigator>
+    <view class="jiange"></view>
+    <navigator class="cell-item allow">设置</navigator>
+</view>

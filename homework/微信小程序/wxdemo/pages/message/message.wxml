@@ -1,0 +1,28 @@
+<!--pages/message/message.wxml-->
+<view class="crad">
+    <text class="crad-title">标题11</text>
+    <text class="crad-date">2019-10-11</text>
+    <image class= "crad-image" src="http://img.alicdn.com/tfs/TB1pHiPfkT2gK0jSZFkXXcIQFXa-520-280.jpg_q90_.webp" mode="aspectFill"></image>
+    <text class="crad-dec">越努力越幸运</text>
+    <text class="crad-read allow">查看详情</text>
+</view>
+
+<view class="crad">
+    <text class="crad-title">标题11</text>
+    <text class="crad-date">2019-10-11</text>
+    <image class= "crad-image" src="http://img.alicdn.com/tfs/TB1pHiPfkT2gK0jSZFkXXcIQFXa-520-280.jpg_q90_.webp" mode="aspectFill"></image>
+    <text class="crad-dec">越努力越幸运</text>
+    <text class="crad-read allow">查看详情</text>
+</view>
+
+
+<view class="crad">
+    <text class="crad-title">标题11</text>
+    <text class="crad-date">2019-10-11</text>
+    <image class= "crad-image" src="http://img.alicdn.com/tfs/TB1pHiPfkT2gK0jSZFkXXcIQFXa-520-280.jpg_q90_.webp" mode="aspectFill"></image>
+    <text class="crad-dec">越努力越幸运</text>
+    <text class="crad-read allow">查看详情</text>
+</view>
+
+
+

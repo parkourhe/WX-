@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/message/message",
+    "pages/contact/contact",
+    "pages/profile/profile",
+    "pages/shoplist/shoplist"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#f60",
+    "navigationBarTitleText": "微信App",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#000",
+    "enablePullDownRefresh": true
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/tabs/home.png",
+        "selectedIconPath": "assets/tabs/home-active.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "assets/tabs/message.png",
+        "selectedIconPath": "assets/tabs/message-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "个人中心",
+        "iconPath": "assets/tabs/profile.png",
+        "selectedIconPath": "assets/tabs/profile-active.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "电话",
+        "iconPath": "assets/tabs/contact.png",
+        "selectedIconPath": "assets/tabs/contact-active.png"
+      }
+    ]
+  }
+}

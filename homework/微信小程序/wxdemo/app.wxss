@@ -1,0 +1,81 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+
+/*封装的边框线*/
+.bd{
+  position: relative;
+
+}
+
+.bd::after{
+   content: "";
+  width: 1rpx;
+  height: 100%;
+  background-color:red;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* 封装的箭头样式 */
+
+.allow {
+  display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+
+}
+
+.allow::after{
+    content: "";
+    width: 15rpx;
+    height: 15rpx;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    transform: rotate(315deg);
+
+}
+
+/* 封装的水平垂直居中 */
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center
+
+}
+
+/* 间隔 */
+.jiange{
+  width: 100%;
+  height: 15rpx;
+  background-color: #eee;
+}
+
+/* 封装列表的样式 */
+
+.cell{
+  display: flex;
+  flex-direction: column;
+  
+}
+.cell-item{
+  padding: 15rpx 20rpx;
+  border-bottom: 1rpx solid #eee;
+  font-size: 16px;
+  background-color: #fff;
+
+}
+
+
+
+
